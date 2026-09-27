@@ -1,0 +1,20 @@
+{
+  "game": "walker-demo-series",
+  "kind": "series-ledger",
+  "mode": "recovered",
+  "revision": 1,
+  "design_version": "0.1.0-recovered",
+  "date": "2026-09-27",
+  "recovered_from": {"files": ["README.md", "STATUS.md", "queue.json", "RHYTHM-SOURCE-AUDIT.md", "advance_platformer.py", "*-preflight.md", "sibling walker-*/README.md"], "source_commit": "a3b5c113112f77291d5f3d1360f33a882fdc52f7", "pass": "series recovery, silent"},
+  "engine": {"name": "godot", "version": "4.7.2.stable", "renderer": "per project"},
+  "gates": {
+    "vision":  {"signed_by": null, "date": null, "revision": null},
+    "systems": {"signed_by": null, "date": null, "revision": null},
+    "world":   {"signed_by": null, "date": null, "revision": null},
+    "scope":   {"signed_by": null, "date": null, "revision": null}
+  },
+  "series_counts": {"queue_total": 139, "started": 67, "sibling_folders_indexed": 59, "review_ready": 1, "film_production": 1, "import_passed": 50, "import_passed_runtime_warning": 2, "external_setup_pending": 13, "pending": 72, "human_reviewed": 0, "as_of": "queue.json 2026-09-27"},
+  "authorizations": {"github_repos_and_push": {"granted_by": "Nik Bear Brown", "date": "2026-09-27", "scope": "create repos and push every walker-* folder"}, "youtube_publishing": "not authorized"},
+  "edu_track": false,
+  "notes": "Series design document, not a game GDD. Gate — unsigned at time of writing. Nothing here is approved. Gates are signed by humans only."
+}

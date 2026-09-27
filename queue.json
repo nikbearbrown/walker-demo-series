@@ -1,0 +1,1357 @@
+{
+  "schema_version": 1,
+  "source_root": "/Users/bear/Documents/CoWork/bear-textbooks/books/walker/godot-demo-projects",
+  "source_commit": "a3b5c113112f77291d5f3d1360f33a882fdc52f7",
+  "destination_root": "/Users/bear/Documents/CoWork/bear-textbooks/books",
+  "total": 139,
+  "items": [
+    {
+      "order": 1,
+      "id": "walker-pong",
+      "source": "2d/pong",
+      "stage": "review_ready",
+      "game_checks": "10 scripted-input checks pass at 60 FPS and 30 FPS; human playtest pending",
+      "active_capture": "walker-pong/evidence/capture-production",
+      "next_action": "Both native 4K films exported and inspected; human review remains separate. Delivered in the preceding user turn.",
+      "walkthrough": "review_ready",
+      "gamedev": "review_ready",
+      "human_review": "pending",
+      "outputs": {
+        "walkthrough": {
+          "path": "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-pong/youtube/claude-liam-walker-pong-walkthrough/exports/landscape/claude-liam-walker-pong-walkthrough.mp4",
+          "sha256": "9d33114be46c50496a8300581897b2a2b742c7645ebbfae6190d49895024277f",
+          "duration_s": 150.6
+        },
+        "gamedev": {
+          "path": "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-pong/youtube/claude-liam-walker-pong-gamedev/exports/landscape/claude-liam-walker-pong-gamedev.mp4",
+          "sha256": "791bf9ba428f567943bb85e535bb3fea4f2250948ec7c4f28512aee3b20c4b82",
+          "duration_s": 374.43333333333334
+        }
+      }
+    },
+    {
+      "order": 2,
+      "id": "walker-3d-platformer",
+      "source": "3d/platformer",
+      "stage": "film-production",
+      "walkthrough": "native4k-export-visual-machine-checks-pass-listening-pending",
+      "audio_followup": "2026-09-12T22:34Z continuation: created review-audio-headroom-20260912/claude-liam-walker-3d-platformer-walkthrough-headroom.mp4 with fixed -2.5dB audio gain. Candidate true peak -2.0dBFS, integrated -25.6LUFS, LRA10.6LU. Every encoded video packet/hash and timestamp matches the preserved original. Candidate SHA256 1ee815962101e867f104255c95a05558990038a61cc4afcd7a63a94d80dbb557. Listening and final export integration pending; original receipt does not approve derivative.",
+      "gamedev": "native4k-master-visual-and-machine-checks-pass-listening-pending",
+      "continuation_20260913_1919": "QA extraction completed. Inspected all29contacts/342samples plus native material frame. Source checker PASS18pairs/134files. Audio -26.4LUFS/-3dBFS; listening unavailable, not passed. No workers active. Read actual VISUAL-REVIEW.md. May inspect next rhythm-game source while external listening remains pending; do not silently mark this pair fully reviewed.",
+      "latest_handoff": "September13 18:47UTC supersedes next_action below: compiler completed. Master QA session72313 is extracting actual frames into qc/master-20260913. Do not duplicate. Resume and inspect all contacts/native code, rerun source/skill checks. Listening remains pending. 71GiB free. See gamedev/RENDER-STATE.md.",
+      "human_review": "pending",
+      "next_action": "September13 continuation: all25 native4K graphics complete and inspected. Fixed B29 overlapping five-digit import lines by using actual player_glow.tres:4–11; old artifacts preserved. Only B29 voice/mix/graphics regenerated; native revised frame fits. Source checker PASS134files/18excerpts/18adjacent results. Standard art final running in unified exec session33105; clips B00–B11 confirmed, do not duplicate compiler. Target exports/landscape;43beats/625.133333seconds. After completion run game youtube/check_final_gamedev.py, inspect actual master contacts and native code frames, rerun skill check, document audio statistics/listening pending. Expanded walkthrough147.566667s already machine/visual checked. About50GB free,15GB reserve. No new pair yet; finish current pair before Audio Rhythm Game.",
+      "game_checks": "4/4 normal-input assertions pass: movement, jump, projectile creation, reset. input-probe-04-coreaudio exits 0 with empty stderr; accelerated Dummy-audio warnings preserved in earlier runs."
+    },
+    {
+      "order": 3,
+      "id": "walker-audio-rhythm-game",
+      "source": "audio/rhythm_game",
+      "stage": "import-passed",
+      "capture_interruption": "2026-09-14T17:28Z: av-pilot-03/session89661 received CAPTURE_WINDOW_CLOSE_REQUESTED and exited before completion. Do not suppress closure or repeatedly reopen. User recording window needed; partial captures preserved.",
+      "capture_pilot": "2026-09-14T15:53Z: av-pilot-01 contains89 native4K startup frames,6.005333s engine audio and measured-pilot.mp4. All89 decoded PTS match monotonic log within0.825ms. No player-input coverage; audio onset/listening and encoder compatibility still pending. Root-owned wrapper restart passed session59665.",
+      "viewport_probe": "2026-09-14: root window clamped to3840x2008; isolated SubViewport produced inspected3840x2160 still at1280x720 logical layout. CoreAudio Space input and offset-checkbox mouse input both pass cleanly (sessions50697,48626). No motion/audio recording yet. Next verify restart ownership then timestamped capture.",
+      "clock_probe": "2026-09-14T09:33Z: real OpenGL/CoreAudio session3773 exits0 cleanly; over5.005942 wall seconds raw advances5.005179485s and filtered5.008494013s. Earlier Dummy driver showed substantial drift. Use real-time CoreAudio for capture pilot; absolute audiovisual latency and listening still unverified.",
+      "cleanup_probe": "2026-09-14T07:57Z: pause/resume diagnostic with200ms post-stop audio drain passes four runs; restart diagnostic session97948 also exits0 with both live-input assertions true and no warnings. Runtime unchanged; audiovisual capture pending.",
+      "live_input_checks": "2026-09-14T05:51Z: live-scene Space produces Perfect:1; R reload resets score to0; prior P pause/resume assertions pass. Automated headless input only. Ogg shutdown warnings persist. Capture/audio-sync verification pending.",
+      "component_checks": "2026-09-14T04:16Z: six constructed hit-window cases pass in scene-based harness; three note-motion cases pass; P-key pause/resume passes. Not live audio-sync or a human playtest. Shutdown warnings remain after pause/resume.",
+      "runtime_probe": "2026-09-14T00:53Z: headless main scene --quit-after180 exited0 but reported4 ObjectDB leaks and2 resources still in use. Not a clean pass; no input/audio-sync validation. Details in game FRICTIONAL.md.",
+      "next_action": "Import, constructed timing/motion checks and normal Space/R/P input diagnostics pass. Orderly diagnostic audio cleanup now passes restart and pause; capture and heard synchronization remain unverified. Next prepare real input-driven audiovisual capture, preserving gameplay clocks, and author both films with adjacent code/result pairs. No films yet. Prior 3D pair remains listening-pending, not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 4,
+      "id": "walker-2d-bullet-shower",
+      "source": "2d/bullet_shower",
+      "stage": "import-passed",
+      "game_checks": "Headless import/runtime,500-bullet count, mouse-follow, collision/recovery and horizontal motion pass. After STATIC-body adaptation all500 physics transforms match drawing positions at60-frame check. Collision input may be outside visible area; not filmed gameplay or performance evidence. Visual checks pending.",
+      "next_action": "Local runtime now explicitly selects STATIC body mode for script-positioned bullets. Standard motion/alignment, collision/recovery and mouse/count probes all pass cleanly after adaptation. README and Frictional document change; upstream unchanged. Next prepare film evidence plan and actual capture when recording availability is resolved. Rhythm game remains unfinished, not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 5,
+      "id": "walker-3d-antialiasing",
+      "source": "3d/antialiasing",
+      "stage": "import-passed-runtime-warning",
+      "next_action": "Headless key selection/bounds and mouse orbit/zoom pass. Full-scene DummyShader teardown warning persists; minimal shader and sky fixtures clean. CAPTURE-PLAN.md prepared. Actual Forward+ image comparisons and both films await recording-window availability. May prepare next source while externally blocked; do not retire this item.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 6,
+      "id": "walker-audio-audio-effects",
+      "source": "audio/audio_effects",
+      "stage": "import-passed",
+      "next_action": "Headless import/idle runtime and full input harness clean:18 effect toggle/restore pairs,7 sound-player activations, music start/stop. Playback state is not heard audio. Next prepare measured dry/wet audio and capture plan; recording-window blocker unchanged. Asset notices preserved.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 7,
+      "id": "walker-compute-heightmap",
+      "source": "compute/heightmap",
+      "stage": "import-passed",
+      "next_action": "2026-09-20: Local GLSL gradient indexing now clamps at endpoint, matching constructed CPU Gradient.sample check. 512-square source-arithmetic enumeration:54757 original out-of-range indices, zero after clamp. Shader reimport and mouse CPU regression clean; GPU execution/parity unverified. Capture plan ready but no visible windows until recording blocker resolved. May advance next feasible source adaptation while both films remain pending.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 8,
+      "id": "walker-gui-accessibility",
+      "source": "gui/accessibility",
+      "stage": "import-passed",
+      "next_action": "2026-09-20: Keyboard harness passes8 Tab transitions including cycle, initial focus, typed live-region Set update, left/right wrap, increment/decrement and both numeric bounds. Local posmod fix documented; upstream untouched. CAPTURE-PLAN ready. VoiceOver/native accessibility and visible capture unverified; shared recording-window blocker unchanged. May inspect next feasible source while both films remain pending, not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 9,
+      "id": "walker-loading-autoload",
+      "source": "loading/autoload",
+      "stage": "import-passed",
+      "next_action": "2026-09-20: Import/idle and four mouse-driven scene transitions pass cleanly;12 checks verify expected scene, old-scene release and persistent autoload ID. CAPTURE-PLAN ready. No visible capture until shared recording blocker resolves; both films and earlier films pending, not retired. May inspect next feasible source adaptation.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 10,
+      "id": "walker-misc-2-5d",
+      "source": "misc/2.5d",
+      "stage": "import-passed-runtime-warning",
+      "next_action": "2026-09-21: Input probes also pass Shift half-speed (1.0 vs2.0 units/24 ticks) and all WASDQE cube keys change basis from reset. Prior checks pass; diagnostic exit clean. CAPTURE-PLAN ready. Editor/visual/audio checks still pending; shared visible capture blocker persists. Both films pending, upstream unchanged.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 11,
+      "id": "walker-mobile-android-iap",
+      "source": "mobile/android_iap",
+      "stage": "external-setup-pending",
+      "next_action": "Source-only preflight: enabled GooglePlayBilling plugin absent from checkout; BillingClient/JNISingleton required. Android/Play test setup unverified; no purchases, account changes or uploads authorized. See android-iap-preflight.md. Not retired; advance next feasible source until dependency/device setup available. No films.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 12,
+      "id": "walker-networking-multiplayer-bomber",
+      "source": "networking/multiplayer_bomber",
+      "stage": "import-passed",
+      "next_action": "2026-09-21 20:42UTC: Adaptation reimport95069 and combined actual-input loopback17384/79130 pass clean after wall/tie fixes. VERIFICATION.md distinguishes constructed winner tests and remaining coverage limits. Shared capture blocker persists, both films pending. May inspect next feasible item13 while blocked; revisit this unfinished game for capture and films. Upstream untouched.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 13,
+      "id": "walker-viewport-2d-in-3d",
+      "source": "viewport/2d_in_3d",
+      "stage": "import-passed",
+      "next_action": "2026-09-22 00:05UTC: Unchanged bounded feedback rally97299 observes right/roof/floor reversals, exit0 clean; earlier random-coverage timeout preserved. Prior left bounce/reset/input/bounds/binding checks pass. VERIFICATION.md records limits. GPU pixels/films blocked by shared recording availability; may inspect next feasible source while keeping both films pending.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 14,
+      "id": "walker-xr-mobile-vr-interface-demo",
+      "source": "xr/mobile_vr_interface_demo",
+      "stage": "import-passed",
+      "next_action": "2026-09-22 01:09UTC: Explicit Native mobile initialization and viewport XR flags true; four actual arrow-key origin-motion checks pass with clean diagnostic teardown. Harness parse error corrected, runtime unchanged. Mobile main_mobile.tscn target absent; stereo pixels and device tracking unverified. Next mobile-scene preflight/verification limits; shared capture blocker, both films pending.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 15,
+      "id": "walker-mono-2-5d",
+      "source": "mono/2.5d",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-22 01:41UTC: C# source targets Godot.NET.Sdk4.7.0/net8.0. dotnet not on PATH/common locations; installed Godot is regular non-mono build. See mono-2-5d-preflight.md. No dependency install or compilation claimed; retain as C# and proceed next feasible source. Both films pending, not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 16,
+      "id": "walker-plugins",
+      "source": "plugins",
+      "stage": "import-passed",
+      "next_action": "2026-09-22 17:43UTC: Global-registration diagnostic44781 passes script rescan, startup scene, four round trips, toggles and four explicit reimport output checks. Adopted removal of duplicate manual format registrations; editor39791/runtime120 clean. README/FRICTIONAL record persistent global format support and headless limits. Visible editor interaction/capture and both films pending under shared blocker. May inspect next feasible source; upstream untouched.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 17,
+      "id": "walker-2d-custom-drawing",
+      "source": "2d/custom_drawing",
+      "stage": "import-passed",
+      "next_action": "2026-09-22 19:52UTC: Harness now passes42checks including mouse/keyboard selection of all4MSAA states and viewport values. Root routing plus arrows from observed focus fixes diagnostic assumptions, no runtime change. VERIFICATION.md records coverage and GPU limits; all logs retained. Shared capture blocker keeps both films pending; may inspect next feasible source without retiring this item. Upstream untouched.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 18,
+      "id": "walker-3d-csg",
+      "source": "3d/csg",
+      "stage": "import-passed",
+      "next_action": "2026-09-23 18:07UTC: Probe95493 passes46checks: prior navigation/orbit plus GUI clicks, wheel-press zoom bounds/camera approach, and generated surfaces for12examples. VERIFICATION.md records limits; surfaces are not proof of visual/boolean correctness. Both films and GPU review pending under shared capture blocker; may inspect next feasible item. Runtime/source unchanged.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 19,
+      "id": "walker-audio-bpm-sync",
+      "source": "audio/bpm_sync",
+      "stage": "import-passed",
+      "next_action": "2026-09-23 19:37UTC: Observational probe16470 passes16checks cleanly; Dummy timing limits documented in VERIFICATION.md. Ogg identifies Juan Linietsky/The Second Comeback/2019; font PIXymbolsLCDW00-Regular. Separate license grants unresolved, no distribution. Heard sync/capture and both films pending under shared blocker; may inspect next feasible source. Upstream untouched.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 20,
+      "id": "walker-compute-post-shader",
+      "source": "compute/post_shader",
+      "stage": "import-passed",
+      "next_action": "2026-09-23 22:44UTC: Headless probe passes10checks for actual G/S input, all4effect pairs/labels and imported grayscale SPIR-V (2112bytes, no compile error). RenderingDevice unavailable: dynamic compilation/dispatch/pixels/cleanup still unverified. VERIFICATION.md and log retained; both films pending under shared capture blocker. May inspect next feasible source; upstream unchanged.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 21,
+      "id": "walker-gui-bidi-and-font-features",
+      "source": "gui/bidi_and_font_features",
+      "stage": "import-passed",
+      "next_action": "2026-09-23: Independent title-only copy imported and ran 120 headless frames cleanly. Actual mouse/key probe passed 35 control-state checks; see VERIFICATION.md and input-20260923.log. Visual shaping/BiDi/justification and both films remain pending under shared user-closed capture blocker. Preserve font notices and audit Recursive attribution before distribution. May inspect next feasible item; upstream unchanged.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 22,
+      "id": "walker-loading-load-threaded",
+      "source": "loading/load_threaded",
+      "stage": "import-passed",
+      "next_action": "2026-09-23: Independent title-only copy imported and ran 120 frames. 1920x1080 headless actual-click probe passes 48 checks across two loading/retrieval rounds. Initial viewport-related input failure retained; see FRICTIONAL.md and input-sized-20260923.log. Pixels, responsiveness and both films pending under shared capture blocker. May inspect next feasible source; upstream preserved.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 23,
+      "id": "walker-misc-custom-logging",
+      "source": "misc/custom_logging",
+      "stage": "import-passed",
+      "next_action": "2026-09-24: Independent title-only copy imported and ran 120 frames, exit 0. Actual-click logger probe passes 15 checks; expected demo errors/warnings are intentional. See FRICTIONAL.md and input-20260924.log. Crash/folder actions not invoked; visual verification and both films pending under shared capture blocker. May inspect next feasible source; upstream preserved.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 24,
+      "id": "walker-mobile-multitouch-cubes",
+      "source": "mobile/multitouch_cubes",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 01:14UTC: Numeric follow-up passes 24 headless routed-touch checks including pinch ratios, min/max clamps, signed quarter-turns and coincident baseline/release. Local gesture fixes verified numerically; see input-numeric-20260924.log and FRICTIONAL.md. Physical device, pixels and both films still pending under shared capture blocker. May inspect next feasible source; upstream untouched.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 25,
+      "id": "walker-networking-multiplayer-pong",
+      "source": "networking/multiplayer_pong",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 02:44UTC: Additional two-process test passes 7 checks each for natural left-paddle bounce and explicit near-win fixture reaching right winner/stop/Exit with both lobbies restored. Earlier input/score/disconnect checks also pass. Not a full ten-point match; see FRICTIONAL.md and terminal-host/client logs. May inspect next feasible source while capture and both films remain pending. Upstream unchanged.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 26,
+      "id": "walker-viewport-3d-in-2d",
+      "source": "viewport/3d_in_2d",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 03:14UTC: Title-only copy imports/runs; 12 headless animation/rotation/viewport resize state checks pass. Initial diagnostic nonexistent-method failure retained and corrected in probe only. See viewport-fixed-20260924.log and FRICTIONAL.md. GPU appearance and both films remain pending shared capture blocker; may inspect next feasible source. Upstream preserved.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 27,
+      "id": "walker-xr-openxr-binding-modifier-demo",
+      "source": "xr/openxr_binding_modifier_demo",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 03:44UTC: Independent title-only copy imports. XR-enabled runtime failed initialization (HMD not detected or required feature unsupported) and was interrupted after no bounded-run completion. Runtime/behavior NOT passed. Requires compatible OpenXR runtime/device; both films also pending shared capture blocker. See FRICTIONAL.md and runtime log. Retain item, may inspect next feasible source.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 28,
+      "id": "walker-mono-android-iap",
+      "source": "mono/android_iap",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-24 04:14UTC: Source preflight only. Same missing discoverable .NET SDK/Godot.NET blocker as item15. Real IAP requires additional Android/Play setup and is outside no-upload/no-paid-API scope; startup also acknowledges purchases, so do not launch against a live billing account. See mono-android-iap-preflight.md. No copy/build/run/film claimed; retain and continue next feasible item.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 29,
+      "id": "walker-2d-dodge-the-creeps",
+      "source": "2d/dodge_the_creeps",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 05:14UTC: 14 headless input/lifecycle checks pass after reproducing and locally fixing down-to-horizontal PI rotation carryover. Natural timer spawn/score and explicit physics-overlap fixture gameover/restart verified; logs preserved. Audio audibility/pixels and both films pending shared capture blocker. See FRICTIONAL.md; may inspect next feasible source. Original source untouched.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 30,
+      "id": "walker-3d-decals",
+      "source": "3d/decals",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 06:44UTC: 25 headless checks pass including zoom limits, six keyboard filter selections and actual P-key ray placement on existing floor. Initial diagnostic pointer-state failures retained; Input.parse_input_event corrected pointer delivery, no runtime fix. See ray-input-20260924.log/FRICTIONAL.md. May inspect next feasible source; GPU appearance and both films pending shared capture blocker.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 31,
+      "id": "walker-audio-device-changer",
+      "source": "audio/device_changer",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 07:14UTC: Independent title-only copy imports/runs; nine real mouse/control/playback checks pass using explicitly guarded Dummy audio driver. No physical audio device changed or listening claimed. Physical routing, visuals and both films remain pending shared capture blocker; see input-20260924.log/FRICTIONAL.md. May inspect next feasible source; upstream preserved.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 32,
+      "id": "walker-compute-texture",
+      "source": "compute/texture",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 08:33UTC: 11 headless control/raycast/SPIR-V/rain checks pass. Reproduced 19/5000 out-of-bounds rain coordinates; local inclusive upper bounds corrected to size-1, rerun zero. Diagnostic stepping is not capture; GPU compute and visible water remain unverified. Both films pending existing GPU/capture constraints; proceed next feasible item, retain this pair. See FRICTIONAL.md and state-fixed-20260924.log.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 33,
+      "id": "walker-gui-control-gallery",
+      "source": "gui/control_gallery",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 09:53UTC: 35 headless control/state checks pass including typed numeric entry, newline, enabled/disabled list rows, popup open/dismiss and splitter drag. Diagnostic input fix only; failed logs retained. Rendered layout, graph/color/highlighting visual interactions and both films remain pending existing capture constraint. Proceed next feasible item without retiring this pair. See FRICTIONAL.md and controls-expanded-input-20260924.log.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 34,
+      "id": "walker-loading-runtime-save-load",
+      "source": "loading/runtime_save_load",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 14:09UTC: Exact Hack 3.003 metadata and embedded full license notices decoded with existing Node Brotli plus FontTools, no installs or font changes; hashes match. Font audit complete. Bounded headless tests retained; proceed next feasible item under capture constraint without retiring this pair. Visual/material verification, both films and human review remain pending; export permission failures untested.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 35,
+      "id": "walker-misc-graphics-tablet-input",
+      "source": "misc/graphics_tablet_input",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 15:09UTC: Expanded synthetic-event regression passes 19 checks, including repeated undo through empty setting strokes and 1025 points split at 1024. No new runtime edit. NOT physical tablet, visual continuity or capture evidence. Proceed next feasible item under existing capture constraint; retain hardware/visual checks, both films and human review pending. See FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 36,
+      "id": "walker-mobile-multitouch-view",
+      "source": "mobile/multitouch_view",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 18:03UTC: Independent title-only copy imports/runs cleanly; ten synthetic-touch state checks pass. Actual indices retained (source remapping comment inaccurate), seven-color cycle verified as state only. Physical touch/emulation/cancellation/visuals and both films pending existing device/capture constraints. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 37,
+      "id": "walker-networking-webrtc-minimal",
+      "source": "networking/webrtc_minimal",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-24 18:35UTC: Independent title-only copy imports but native runtime fails: no default WebRTC extension, unimplemented methods/null channels (three-frame log retained). Needs compatible local WebRTC implementation or browser export environment before real peer delivery tests. No mocks/downloads; proceed next feasible item without retiring either film. See FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 38,
+      "id": "walker-viewport-3d-scaling",
+      "source": "viewport/3d_scaling",
+      "stage": "import-passed",
+      "next_action": "2026-09-24 19:05UTC: Independent title-only copy imports/runs cleanly; 37 headless Space/Enter scaling/filter/HUD/scene-state checks pass. Noto metadata inspected and OFL notice retained. Stored properties are not GPU quality/performance verification. Both films and visual checks pending existing capture constraint; proceed next feasible item without retiring pair. See FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 39,
+      "id": "walker-xr-openxr-character-centric-movement",
+      "source": "xr/openxr_character_centric_movement",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-24 19:35UTC: Independent title-only copy imports; headless runtime fails OpenXR initialize (HMD/feature unavailable), bounded diagnostic interrupted after no completion. Existing XR hardware/runtime constraint; no fake trackers/settings changes. Real movement/blackout/recenter and both films pending. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 40,
+      "id": "walker-mono-dodge-the-creeps",
+      "source": "mono/dodge_the_creeps",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-24 20:05UTC: C# preflight reconfirms known missing .NET SDK/GodotSharp runtime; project targets net8.0 and Godot.NET.Sdk 4.7.0. No build/run/copy or GDScript substitution. Source attribution recorded in mono-dodge-the-creeps-preflight.md. Proceed next feasible item; retain both films and actual C# verification pending.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 41,
+    "id": "walker-2d-drawable-textures",
+    "source": "2d/drawable_textures",
+    "stage": "import-passed",
+    "next_action": "2026-09-24 20:35UTC: Independent title-only copy imports/runs cleanly; 17 headless GUI/input/state checks pass. Initial brush-size suspicion disproved, no runtime fix needed. Actual GPU paint/erase/stamp pixels and both films pending existing visible-capture constraint. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 42,
+    "id": "walker-3d-global-illumination",
+    "source": "3d/global_illumination",
+    "stage": "import-passed",
+    "next_action": "2026-09-24 21:05UTC: Independent title-only copy imports/runs cleanly; 42 headless Space/R/F mode-state assertions pass. Original map attribution and bake assets preserved. GPU lighting/reflections, camera interaction and both films remain pending existing capture constraint. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 43,
+    "id": "walker-audio-generator",
+    "source": "audio/generator",
+    "stage": "import-passed",
+    "next_action": "2026-09-26 18:36UTC: Verbose abrupt-quit diagnostic identifies AudioStreamGeneratorPlayback leak; reference-release-only attempt ineffective and reverted. Three orderly stop/drain/free/restart cycles and 15 input/state regressions pass cleanly. Production unchanged; abrupt teardown remains a limitation. No heard audio, waveform, latency or film verification. Both films pending existing capture constraint; proceed next feasible item without retiring pair. See FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 44,
+    "id": "walker-gui-custom-splash-screen",
+    "source": "gui/custom_splash_screen",
+    "stage": "import-passed",
+    "next_action": "2026-09-26 19:06UTC: Independent title-only copy imports/runs; 11 headless real-time splash/transition/fade/state assertions pass. Actual process restart, rendered particles/continuity and both films unverified, pending existing capture constraint. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 45,
+    "id": "walker-loading-scene-changer",
+    "source": "loading/scene_changer",
+    "stage": "import-passed",
+    "next_action": "2026-09-26 19:36UTC: Independent title-only copy imports/runs cleanly; 48 headless assertions across twelve mouse/keyboard scene transitions pass. Actual rendered appearance and both films pending existing capture constraint. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 46,
+    "id": "walker-misc-hdr-output",
+    "source": "misc/hdr_output",
+    "stage": "external-setup-pending",
+    "next_action": "2026-09-26 20:06UTC: Title-only independent copy imports/runs exit0; headless display server explicitly lacks HDR output. Not evidence about physical display support. Real HDR/input/visual verification and both films pending existing capture constraint and unverified HDR display path. Original MIT/CC0 notices retained. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 47,
+    "id": "walker-mobile-sensors",
+    "source": "mobile/sensors",
+    "stage": "external-setup-pending",
+    "next_action": "2026-09-26 20:36UTC: Independent title-only copy imports/runs; 17 headless missing-sensor fallback assertions pass with actual zero readings, no injected motion. Physical mobile sensors, rendered behavior and both films remain pending hardware/capture constraints. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 48,
+    "id": "walker-networking-webrtc-signaling",
+    "source": "networking/webrtc_signaling",
+    "stage": "external-setup-pending",
+    "next_action": "2026-09-26 21:06UTC: Source preflight reconfirms existing missing native WebRTC dependency; no source networking .gdextension found. No copy, listener, external STUN connection or dependency installation started. Actual connectivity and both films remain pending. Proceed next feasible item without retiring pair; see webrtc-signaling-preflight.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 49,
+    "id": "walker-viewport-dynamic-split-screen",
+    "source": "viewport/dynamic_split_screen",
+    "stage": "import-passed",
+    "next_action": "2026-09-26 21:36UTC: Independent title-only copy imports/runs; 18 headless checks pass (D/L movement, explicitly static split/camera boundary fixtures, viewport resize). No rendered shader verification or footage. Both films pending existing capture constraint; proceed next feasible item without retiring pair. See FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 50,
+    "id": "walker-xr-openxr-composition-layers",
+    "source": "xr/openxr_composition_layers",
+    "stage": "external-setup-pending",
+    "next_action": "2026-09-26 22:06UTC: Source preflight; existing OpenXR HMD/runtime blocker remains. No copy/run or fake trackers. Actual compositor layers require headset evidence since spectator view omits them. Full scene/action-map/shader audit, interaction and both films pending. Existing encoder left untouched. Proceed next feasible item without retiring pair; see openxr-composition-layers-preflight.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 51,
+    "id": "walker-mono-multiplayer-pong",
+    "source": "mono/multiplayer_pong",
+    "stage": "external-setup-pending",
+    "next_action": "2026-09-26 22:36UTC: C# preflight reconfirms missing local .NET SDK/GodotSharp; csproj targets net8.0/Godot.NET.Sdk4.7.0. No copy/build/listener or GDScript substitution. Actual C# connectivity/gameplay and both films remain pending. Proceed next feasible item without retiring pair; see mono-multiplayer-pong-preflight.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 52,
+    "id": "walker-2d-dynamic-tilemap-layers",
+    "source": "2d/dynamic_tilemap_layers",
+    "stage": "import-passed",
+    "next_action": "2026-09-26 23:06UTC: Independent title-only copy imports/runs; 11 headless D/A/W input/physics assertions pass for fake-wall traversal, enter/exit fade, solid floor and jump. Rendered verification and both films pending existing capture constraint. Proceed next feasible item without retiring pair; see FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 53,
+    "id": "walker-3d-graphics-settings",
+    "source": "3d/graphics_settings",
+    "stage": "import-passed",
+    "next_action": "2026-09-26 23:36UTC: Independent title-only copy imports/runs; 17 headless keyboard/mouse state assertions pass. Full scene and asset-license audit still open; GPU comparisons and both films pending existing capture constraint. See FRICTIONAL.md; do not retire pair.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 54,
+    "id": "walker-audio-mic-record",
+    "source": "audio/mic_record",
+    "stage": "import-passed",
+    "next_action": "2026-09-27 00:36UTC: Verbose leaks identify microphone stream/playback. Diagnostic stop plus 200ms drains passes 10 checks cleanly twice; production abrupt quit remains warning-bearing and unchanged. No physical microphone capture, playback or WAV export tested. Actual audio and both films pending existing capture constraint. Next feasible item may proceed; see FRICTIONAL.md, pair not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 55,
+    "id": "walker-gui-drag-and-drop",
+    "source": "gui/drag_and_drop",
+    "stage": "import-passed",
+    "next_action": "2026-09-27 01:36UTC: Correct viewport-local push_input routing fixes harness; 16 checks pass across 3 color-copy drags and empty-space rejection. Production unchanged. Popup editing/rendered preview and both films pending existing capture constraint. Next feasible item may proceed; see FRICTIONAL.md, pair not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 56,
+    "id": "walker-loading-serialization",
+    "source": "loading/serialization",
+    "stage": "import-passed",
+    "next_action": "2026-09-27 04:36UTC: 42 numeric validator unit checks and repeat 12 GUI roundtrips pass; earlier 28 negative preservation checks and movement checks documented. Not atomic/disk-full-proof or rendered verification. Next feasible item may proceed while both films await existing capture constraint; see FRICTIONAL.md, pair not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 57,
+    "id": "walker-misc-joypads",
+    "source": "misc/joypads",
+    "stage": "import-passed",
+    "next_action": "2026-09-27 05:06UTC: Title-only copy imports/runs; 13 absent-device/mapping unit assertions pass. Connected devices empty; no mappings applied or vibration invoked. Real controller and existing capture constraint block hardware verification/films. Full scene review still pending. Next feasible item may proceed; see FRICTIONAL.md, pair not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 58,
+    "id": "walker-networking-websocket-chat",
+    "source": "networking/websocket_chat",
+    "stage": "import-passed",
+    "next_action": "2026-09-27 06:36UTC: Reproduced refusal setter bug and fixed local backing assignment; 7 refusal/reopening checks plus 10 two-client GUI/chat regression checks pass over loopback. TLS/binary/timeouts unverified. Next feasible item may proceed while both films await existing capture constraint; see FRICTIONAL.md, pair not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 59,
+    "id": "walker-viewport-gui-in-3d",
+    "source": "viewport/gui_in_3d",
+    "stage": "import-passed",
+    "next_action": "2026-09-27 08:36UTC: Harness cursor routing resolved using parse_input_event; four real physics-picking/hover/click checks pass with static camera. Earlier coordinate/keyboard checks pass. Moving-camera/billboard/rendered checks open. Next feasible item may proceed while both films await existing capture constraint; see FRICTIONAL.md, pair not retired.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 60,
+      "id": "walker-xr-openxr-hand-tracking-demo",
+      "source": "xr/openxr_hand_tracking_demo",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-27 09:06UTC: Read README/config/all seven scripts; known OpenXR hardware/runtime blocker persists. No copy/run or fake tracking. Actual tracking/pickup behavior, scene/action-map/license audit and both films pending. See openxr-hand-tracking-preflight.md; proceed next feasible without retiring pair.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 61,
+      "id": "walker-mono-pong",
+      "source": "mono/pong",
+      "stage": "external-setup-pending",
+      "next_action": "2026-09-27 09:06UTC: Read README/config/csproj/four C# scripts. dotnet absent from PATH and GodotSharp absent from installed app; known toolchain blocker. No copy/build. Candidate Y-clamp uses viewport width, untested/unmodified. See mono-pong-preflight.md. Both films pending; proceed item62 without retiring pair.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 62,
+      "id": "walker-2d-finite-state-machine",
+      "source": "2d/finite_state_machine",
+      "stage": "import-passed",
+      "game_checks": "2026-09-27: title-only copy, Godot4.7.2 import/runtime clean; 18 keyboard movement/state/debug-label assertions plus 11 combo/stack checks pass headlessly. No footage, physical damage verification or human playtest.",
+      "next_action": "10:36UTC: all scenes read, input-debug log18/18 clean. Font binary identifies Source Code Pro Bold2.030/OFL1.1; see FONT-PROVENANCE.md, separate license packaging pending. Known capture constraint blocks both films; proceed next feasible item63 without retiring pair. Source unchanged.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 63,
+      "id": "walker-3d-ik",
+      "source": "3d/ik",
+      "stage": "import-passed",
+      "game_checks": "2026-09-27: import/runtime clean; LookAt7, navigation12, FPS11 and constructed mode8 assertions pass after local FABRIK scheduling fix. FPS entry/return pass; captured look/clamp tests blocked by independently verified headless mouse-mode limitation. No footage/human playtest.",
+      "next_action": "13:36UTC: fps-navigation4/8 (failed captured mode/yaw/pitch checks retained); isolated headless backend ignores captured/hidden mode requests. No bypass or visible window opened. Resume display-dependent checks/editor visuals/provenance and both films when capture available; proceed next feasible item64 without retiring pair. See FRICTIONAL.md.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 64,
+      "id": "walker-audio-midi-piano",
+      "source": "audio/midi_piano",
+      "stage": "import-passed",
+      "game_checks": "2026-09-27: import/startup clean;12 mouse/key-count/pitch/color/lifetime assertions pass; synthetic MIDI7/7 after fixing non-note filtering and zero-velocity note-on (baseline3fails). MIDI inputs[]. No listening/hardware verification.",
+      "next_action": "15:06UTC: expanded synthetic MIDI13/13 passes incl endpoints21/108 and ignored controller messages. WAV hash/properties/source commit recorded in ASSET-PROVENANCE.md; no listening/recording-authorship claim. Inherited8s lifetime can truncate low pitches. Known capture/listening/hardware constraints; both films pending. Proceed next feasible item65 without retiring pair.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 65,
+      "id": "walker-gui-gd-paint",
+      "source": "gui/gd_paint",
+      "stage": "import-passed",
+      "next_action": "16:36UTC: full scene read complete; expanded brush settings mouse/shape/size/label tests19/19 clean. Failed keyboard-focus and strict label-format harness attempts preserved; production remains title-only. Source clean, assets/root MIT retained. Pixel/color-picker/export and both films pending known capture constraint; next feasible item66 may proceed without retiring this pair.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 66,
+      "id": "walker-loading-threads",
+      "source": "loading/threads",
+      "stage": "import-passed",
+      "next_action": "17:36UTC: stress and queued shutdown29/29 clean in three runs; failed synchronous-free harness preserved. Each run20 bursts of8 GUI activations plus baseline/worker-join checks. Image hash matches source; original repository inclusion traced, separate image provenance limited. Both films still pending known capture constraint. Proceed next feasible item67 without retiring this pair.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 67,
+      "id": "walker-misc-large-world-coordinates",
+      "source": "misc/large_world_coordinates",
+      "stage": "import-passed",
+      "next_action": "18:06UTC: new sibling title-only, full script/scene read, import/runtime clean.14 normal-input control checks pass. Installed engine double=false; large presets show expected stored rounding, not exact precision or verified rendering. Resume opposite zoom/pitch bounds and label/preservation checks. Both films pending existing capture constraint; double-build comparison unverified.",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 68,
+      "id": "walker-networking-websocket-minimal",
+      "source": "networking/websocket_minimal",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 69,
+      "id": "walker-viewport-screen-capture",
+      "source": "viewport/screen_capture",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 70,
+      "id": "walker-xr-openxr-origin-centric-movement",
+      "source": "xr/openxr_origin_centric_movement",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 71,
+      "id": "walker-mono-squash-the-creeps",
+      "source": "mono/squash_the_creeps",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 72,
+      "id": "walker-2d-glow",
+      "source": "2d/glow",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 73,
+      "id": "walker-3d-kinematic-character",
+      "source": "3d/kinematic_character",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 74,
+      "id": "walker-audio-spectrum",
+      "source": "audio/spectrum",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 75,
+      "id": "walker-gui-input-mapping",
+      "source": "gui/input_mapping",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 76,
+      "id": "walker-misc-matrix-transform",
+      "source": "misc/matrix_transform",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 77,
+      "id": "walker-networking-websocket-multiplayer",
+      "source": "networking/websocket_multiplayer",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 78,
+      "id": "walker-viewport-split-screen-input",
+      "source": "viewport/split_screen_input",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 79,
+      "id": "walker-xr-openxr-passthrough",
+      "source": "xr/openxr_passthrough",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 80,
+      "id": "walker-2d-hexagonal-map",
+      "source": "2d/hexagonal_map",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 81,
+      "id": "walker-3d-labels-and-texts",
+      "source": "3d/labels_and_texts",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 82,
+      "id": "walker-audio-text-to-speech",
+      "source": "audio/text_to_speech",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 83,
+      "id": "walker-gui-msdf-font",
+      "source": "gui/msdf_font",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 84,
+      "id": "walker-misc-multiple-windows",
+      "source": "misc/multiple_windows",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 85,
+      "id": "walker-xr-openxr-render-models",
+      "source": "xr/openxr_render_models",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 86,
+      "id": "walker-2d-instancing",
+      "source": "2d/instancing",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 87,
+      "id": "walker-3d-lights-and-shadows",
+      "source": "3d/lights_and_shadows",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 88,
+      "id": "walker-gui-multiple-resolutions",
+      "source": "gui/multiple_resolutions",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 89,
+      "id": "walker-misc-noise-viewer",
+      "source": "misc/noise_viewer",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 90,
+      "id": "walker-xr-openxr-spectator-view",
+      "source": "xr/openxr_spectator_view",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 91,
+      "id": "walker-2d-isometric",
+      "source": "2d/isometric",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 92,
+      "id": "walker-3d-material-testers",
+      "source": "3d/material_testers",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 93,
+      "id": "walker-gui-pseudolocalization",
+      "source": "gui/pseudolocalization",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 94,
+      "id": "walker-misc-os-test",
+      "source": "misc/os_test",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 95,
+      "id": "walker-xr-webxr",
+      "source": "xr/webxr",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 96,
+      "id": "walker-2d-kinematic-character",
+      "source": "2d/kinematic_character",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 97,
+      "id": "walker-3d-navigation",
+      "source": "3d/navigation",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 98,
+      "id": "walker-gui-regex",
+      "source": "gui/regex",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 99,
+      "id": "walker-misc-pause",
+      "source": "misc/pause",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 100,
+      "id": "walker-2d-light2d-as-mask",
+      "source": "2d/light2d_as_mask",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 101,
+      "id": "walker-3d-navigation-mesh-chunks",
+      "source": "3d/navigation_mesh_chunks",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 102,
+      "id": "walker-gui-rich-text-bbcode",
+      "source": "gui/rich_text_bbcode",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 103,
+      "id": "walker-misc-window-management",
+      "source": "misc/window_management",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 104,
+      "id": "walker-2d-lights-and-shadows",
+      "source": "2d/lights_and_shadows",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 105,
+      "id": "walker-3d-occlusion-culling-mesh-lod",
+      "source": "3d/occlusion_culling_mesh_lod",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 106,
+      "id": "walker-gui-theming-override",
+      "source": "gui/theming_override",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 107,
+      "id": "walker-2d-navigation",
+      "source": "2d/navigation",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 108,
+      "id": "walker-3d-particles",
+      "source": "3d/particles",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 109,
+      "id": "walker-gui-translation",
+      "source": "gui/translation",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 110,
+      "id": "walker-2d-navigation-astar",
+      "source": "2d/navigation_astar",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 111,
+      "id": "walker-3d-physical-light-camera-units",
+      "source": "3d/physical_light_camera_units",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 112,
+      "id": "walker-gui-ui-mirroring",
+      "source": "gui/ui_mirroring",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 113,
+      "id": "walker-2d-navigation-mesh-chunks",
+      "source": "2d/navigation_mesh_chunks",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 114,
+      "id": "walker-3d-physics-interpolation",
+      "source": "3d/physics_interpolation",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 115,
+      "id": "walker-2d-particles",
+      "source": "2d/particles",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 116,
+      "id": "walker-3d-physics-tests",
+      "source": "3d/physics_tests",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 117,
+      "id": "walker-2d-physics-platformer",
+      "source": "2d/physics_platformer",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 118,
+      "id": "walker-3d-procedural-materials",
+      "source": "3d/procedural_materials",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 119,
+      "id": "walker-2d-physics-tests",
+      "source": "2d/physics_tests",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 120,
+      "id": "walker-3d-ragdoll-physics",
+      "source": "3d/ragdoll_physics",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 121,
+      "id": "walker-2d-platformer",
+      "source": "2d/platformer",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 122,
+      "id": "walker-3d-rigidbody-character",
+      "source": "3d/rigidbody_character",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 123,
+      "id": "walker-2d-polygons-lines",
+      "source": "2d/polygons_lines",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 124,
+      "id": "walker-3d-sky-shaders",
+      "source": "3d/sky_shaders",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 125,
+      "id": "walker-2d-role-playing-game",
+      "source": "2d/role_playing_game",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 126,
+      "id": "walker-3d-soft-body-physics",
+      "source": "3d/soft_body_physics",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 127,
+      "id": "walker-2d-screen-space-shaders",
+      "source": "2d/screen_space_shaders",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 128,
+      "id": "walker-3d-sprites",
+      "source": "3d/sprites",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 129,
+      "id": "walker-2d-skeleton",
+      "source": "2d/skeleton",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 130,
+      "id": "walker-3d-squash-the-creeps",
+      "source": "3d/squash_the_creeps",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 131,
+      "id": "walker-2d-sprite-shaders",
+      "source": "2d/sprite_shaders",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 132,
+      "id": "walker-3d-tonemap-color-correction",
+      "source": "3d/tonemap_color_correction",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 133,
+      "id": "walker-2d-tween",
+      "source": "2d/tween",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 134,
+      "id": "walker-3d-truck-town",
+      "source": "3d/truck_town",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 135,
+      "id": "walker-3d-variable-rate-shading",
+      "source": "3d/variable_rate_shading",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 136,
+      "id": "walker-3d-visibility-ranges",
+      "source": "3d/visibility_ranges",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 137,
+      "id": "walker-3d-volumetric-fog",
+      "source": "3d/volumetric_fog",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 138,
+      "id": "walker-3d-voxel",
+      "source": "3d/voxel",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    },
+    {
+      "order": 139,
+      "id": "walker-3d-waypoints",
+      "source": "3d/waypoints",
+      "stage": "pending",
+      "walkthrough": "pending",
+      "gamedev": "pending",
+      "human_review": "pending"
+    }
+  ]
+}

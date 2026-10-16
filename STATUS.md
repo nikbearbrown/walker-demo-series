@@ -1,5 +1,45 @@
 # Current work
 
+## September 29, 2026 UTC — kinematic moving-platform route
+
+Item 96's normal-input left+jump route now lands on MovingPlatform2 and rides it.
+An assertion run measures matching −36 px player/platform Y over 120 physics
+frames with floor contact and stable offset. The shorter failed route is
+preserved. This is engine-state behavioral evidence, not visible footage or
+human play. One-way traversal, Princess win and both films remain pending.
+
+## September 29, 2026 UTC — kinematic controls follow-up
+
+Item 96's second normal-input diagnostic now passes braking and left movement;
+engine-state observations confirm MovingPlatform1 position and Circle rotation
+change over time. The first parse failure and one incorrect displacement check
+remain logged. This does not verify player carry, one-way traversal, Princess
+win or visible gameplay. Those and both films stay pending; no new review-ready
+pair, no source-checkout edit and no capture worker launched.
+
+## September 29, 2026 UTC — round-robin continuation
+
+WebXR item 95 source preflight retained in `walker-xr-webxr-preflight.md`:
+immersive browser/headset/controller behavior cannot be claimed from a desktop
+preview. Queue keeps it at external-setup-pending, not retired. Created the
+separate `walker-2d-kinematic-character` copy for item 96 with upstream MIT
+notice and provenance. Godot 4.7.2 reimport after the local display-name change
+passes. Headless real-scene input probe passes landing, rightward movement and
+Space jump; preserved four failed diagnostic logs before the passing probe.
+Platform carry, one-way traversal, rotating obstacle, Princess win, rendered
+capture and both films remain unverified/pending. No original demo change.
+
+## September 29, 2026 UTC — rhythm film audit
+
+Both Rhythm Game native-4K landscape masters and matching ready receipts now
+exist. Walkthrough skill check passes 17 implemented features/20 evidence
+intervals; gamedev check passes 15 exact adjacent code/result pairs. Actual
+contact sheets and recorded event-sequence reviews were inspected. Queue stage
+corrected from stale `import-passed` to `film-production`. Heard synchronization,
+full audio-transition listening and Bear's review remain pending; do not mark
+the pair review-ready. Platformer remains on the same listening hold. No duplicate
+render was launched and no original or failed artifact was removed.
+
 ## September13 19:19UTC — newest handoff
 
 QA session72313 completed. Platformer gamedev actual master: all29contacts with
